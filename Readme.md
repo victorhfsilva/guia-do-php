@@ -15,6 +15,9 @@ Bem-vindo ao Guia do PHP! Este repositório é o ponto de partida perfeito para 
 - [Estruturas de Controle](/Sintaxe%20Básica/Estruturas%20de%20Controle.md)
 - [Manipulação de Arrays](/Sintaxe%20Básica/Manipulação%20de%20Arrays.md)
 - [Funções](/Sintaxe%20Básica/Funções.md)
+- [Manipulação de Arquivos](/Sintaxe%20Básica/Manipulação%20de%20Arquivos.md)
+- [Importações e Estruturas de Pastas](/Sintaxe%20Básica/Importações%20e%20Estrutura%20de%20Pastas.md)
+- [Trabalhando com Nulo](/Sintaxe%20Básica/Trabalhando%20com%20Nulo.md)
 
 
 ## 🤝 Contribua!
