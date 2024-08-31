@@ -245,3 +245,46 @@ PHP suporta tipagem de funções, o que permite que você especifique o tipo de 
   echo encontrar_usuario(1); // Output: João
   echo encontrar_usuario(3); // Output: (nada, pois retorna null)
   ```
+
+## Arrow Functions
+
+- **Descrição:** 
+  - Introduzidas no PHP 7.4, as funções `fn` são funções anônimas (closures) de única expressão. Também conhecidas como "arrow functions", elas oferecem uma sintaxe mais curta e concisa em comparação com as lambdas tradicionais (`function`).
+
+- **Sintaxe:**
+  ```php
+  $saudacao = fn($nome) => "Olá, " . $nome;
+
+  echo $saudacao("João"); // Output: Olá, João
+  ```
+
+- **Diferença Principal:**
+  - A principal diferença entre `fn` e `function` é que `fn` implicitamente tem acesso ao escopo externo (lexical scope) sem a necessidade de usar a palavra-chave `use`.
+
+- **Exemplo Comparativo:**
+  ```php
+  $multiplicador = 2;
+
+  // Usando `function`
+  $dobrar = function($n) use ($multiplicador) {
+      return $n * $multiplicador;
+  };
+
+  // Usando `fn`
+  $dobrar = fn($n) => $n * $multiplicador;
+
+  echo $dobrar(5); // Output: 10
+  ```
+
+- **Uso Comum:**
+  - As funções `fn` são ideais para operações simples e rápidas, como em callbacks ou para transformar elementos em arrays.
+
+- **Exemplo com `array_map()` usando `fn`:**
+  ```php
+  $numeros = [1, 2, 3, 4];
+  $dobrados = array_map(fn($n) => $n * 2, $numeros);
+
+  print_r($dobrados); // Output: Array ( [0] => 2 [1] => 4 [2] => 6 [3] => 8 )
+  ```
+
+As funções `fn` tornam o código mais curto e mais fácil de ler, especialmente em operações simples e expressões únicas, promovendo uma sintaxe limpa e eficiente em PHP.

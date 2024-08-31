@@ -17,8 +17,16 @@ Bem-vindo ao Guia do PHP! Este repositório é o ponto de partida perfeito para 
 - [Funções](/Sintaxe%20Básica/Funções.md)
 - [Manipulação de Arquivos](/Sintaxe%20Básica/Manipulação%20de%20Arquivos.md)
 - [Importações e Estruturas de Pastas](/Sintaxe%20Básica/Importações%20e%20Estrutura%20de%20Pastas.md)
+- [Data e Hora](/Sintaxe%20Básica/Data%20e%20Hora.md)
 - [Trabalhando com Nulo](/Sintaxe%20Básica/Trabalhando%20com%20Nulo.md)
+- [Tratamento de Exceções](/Sintaxe%20Básica/Tratamento%20de%20Exceções.md)
 
+#### Orientação a Objetos
+
+- [Orientação a Objetos](/Orientação%20a%20Objetos/Orientação%20a%20Objetos.md)
+- [Métodos e Parâmetros Estáticos](/Orientação%20a%20Objetos/Métodos%20e%20Parâmetros%20Estáticos.md)
+- [Enum](/Orientação%20a%20Objetos/Enum.md)
+- [Métodos Mágicos](/Orientação%20a%20Objetos/Métodos%20Mágicos.md)
 
 ## 🤝 Contribua!
 
