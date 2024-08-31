@@ -9,6 +9,7 @@ Bem-vindo ao Guia do PHP! Este repositório é o ponto de partida perfeito para 
 #### Sintaxe Básica
 
 - [Instalação e Configuração](/Sintaxe%20Básica/Instalação%20e%20Configuração.md)
+- [Estrutura Básica](/Sintaxe%20Básica/Estrutura%20Básica.md)
 - [Variáveis e Tipos de Dados](/Sintaxe%20Básica/Variáveis%20e%20Tipos%20de%20Dados.md)
 - [Operadores](/Sintaxe%20Básica/Operadores.md)
 - [Manipulação de Strings](/Sintaxe%20Básica/Manipulação%20de%20Strings.md)
@@ -27,6 +28,21 @@ Bem-vindo ao Guia do PHP! Este repositório é o ponto de partida perfeito para 
 - [Métodos e Parâmetros Estáticos](/Orientação%20a%20Objetos/Métodos%20e%20Parâmetros%20Estáticos.md)
 - [Enum](/Orientação%20a%20Objetos/Enum.md)
 - [Métodos Mágicos](/Orientação%20a%20Objetos/Métodos%20Mágicos.md)
+
+#### Composer
+
+- [Composer](./Composer/Composer.md)
+- [PHPUnit](./Composer/PHPUnit.md)
+- [PHP Code Sniffer](./Composer/PHP%20Code%20Sniffer.md)
+- [Phan](./Composer/Phan.md)
+
+#### Web
+
+- [PDO](/Web/PDO.md)
+- [Formulários HTML](/Web/Formulários%20HTML.md)
+- [RESTful](/Web/RESTful.md)
+- [Sessões e Cookies](/Web/Sessões%20e%20Cookies.md)
+
 
 ## 🤝 Contribua!
 
