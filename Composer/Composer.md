@@ -275,11 +275,6 @@ Composer é uma ferramenta de gerenciamento de dependências para PHP. Ele permi
   }
   ```
 
-- **Verificação da Lista de Scripts:**
-  - Para ver a lista de scripts junto com as descrições, use:
-    ```bash
-    composer list --script
-    ```
 
 - **Resultado Esperado:**
   - O Composer mostrará uma lista de todos os scripts definidos, acompanhados das descrições que você especificou, facilitando o entendimento e a execução das tarefas automatizadas no seu projeto.
